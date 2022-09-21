@@ -9,7 +9,9 @@ function handleSubmit(evt) {
 
 }
 
-
+function hoverEvent() {
+alert('You are doing great')
+}
 
 
 let form = document.querySelector('#contact');
@@ -17,3 +19,4 @@ let form = document.querySelector('#contact');
 form.addEventListener('submit', handleSubmit);
 
 let catCont = document.querySelector('#cat-container');
+catCont.addEventListener('mouseover', hoverEvent)
