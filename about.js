@@ -9,8 +9,10 @@ function handleSubmit(evt) {
 
 }
 
-function hoverEvent() {
-alert('You are doing great')
+
+function mouseOver() {
+  document.getElementById("cat-container");
+  alert('you are amazing');
 }
 
 
@@ -18,5 +20,7 @@ let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-let catCont = document.querySelector('#cat-container');
-catCont.addEventListener('mouseover', hoverEvent)
+let catCont = document.getElementById('#cat-container');
+
+document.getElementById("cat-container").onmouseover = function() {mouseOver()};
+

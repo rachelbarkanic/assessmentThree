@@ -43,3 +43,20 @@ img {
 	color: navy;
 	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+#color {
+	color: purple;
+}
+
+#place {
+	color: rgb(209, 49, 49);
+}
+
+.back {
+	position: center;
+}
+
+#compliment-box {
+	background-color: pink;
+	display: flex;
+}
