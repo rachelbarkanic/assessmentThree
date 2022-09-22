@@ -20,7 +20,6 @@ let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-let catCont = document.getElementById('#cat-container');
 
 document.getElementById("cat-container").onmouseover = function() {mouseOver()};
 
