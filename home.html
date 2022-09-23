@@ -5,7 +5,7 @@
 	<link href="styles.css" rel="stylesheet">
 
 </head>
-<body>
+<body id="main-page-body">
 	<nav>
 		<ol>
 	        <li class="crumb"><a href="./home.html">Home</a></li>
@@ -26,14 +26,18 @@
 		</div>
 
 		<div id="compliment-box">
-		<p><h3>Welcome to this website!</h3></p>
-		<br>
-		<ul>
-			<li>You are beautiful</li>
-			<li>You are funny</li>
-			<li>You are kind</li>
-			<li>You are a great friend</li>
-			<li>Everyone wants to be like you!</li>
+		<p><h3 id="welcome">Welcome to this website!</h3></p>
+		
+		<ul id="list">
+			<li id="bullet">You are beautiful</li>
+			<br>
+			<li id="bullet">You are funny</li>
+			<br>
+			<li id="bullet">You are kind</li>
+			<br>
+			<li id="bullet">You are a great friend</li>
+			<br>
+			<li id="bullet">Everyone wants to be like you!</li>
 		</ul>
 		</div>
 
@@ -50,18 +54,19 @@
 				<legend>How'd you hear about us?</legend>
 				<div>
 				  <input type="checkbox" id="google" />
-				  <label for="google">Google</label>
+				  <label for="google" class="checkbox">Google</label>
 				</div>
 				<div>
 				   <input type="checkbox" id="friend" />
-				  <label for="friend">A Friend</label>
+				  <label for="friend" class="checkbox">A Friend</label>
 				</div>
 				<div>
 				  <input type="checkbox" id="other" />
-				  <label for="other">Other</label>
+				  <label for="other" class="checkbox">Other</label>
 				</div>
 			  </fieldset>
-
+			  <br>
+			  <br>
 
 			<input type="submit">
 

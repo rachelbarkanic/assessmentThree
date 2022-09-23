@@ -42,6 +42,7 @@ img {
 	padding: 20px;
 	color: navy;
 	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
 }
 
 #color {
@@ -57,6 +58,42 @@ img {
 }
 
 #compliment-box {
-	background-color: pink;
+	background-color: rgb(230, 194, 207);
+	
+}
+
+#interests {
 	display: flex;
+	justify-content: center;
+}
+
+#career-goals {
+	text-decoration-line: underline;
+}
+
+#welcome {
+	text-decoration: underline;
+	text-decoration-color: blueviolet;
+	text-align: center;
+}
+
+.checkbox {
+	color: rgb(27, 107, 64);
+	font-weight: bold;
+}
+
+#main-page-body {
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+#bullet {
+	list-style-type:circle;
+	color: rgb(202, 99, 31);
 }

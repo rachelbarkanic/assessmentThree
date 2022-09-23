@@ -1,6 +1,7 @@
 console.log("hello world");
 
-
+let form = document.querySelector('#contact');
+let catCont = document.getElementById("cat-pic");
 
 function handleSubmit(evt) {
 	evt.preventDefault();
@@ -11,15 +12,11 @@ function handleSubmit(evt) {
 
 
 function mouseOver() {
-  document.getElementById("cat-container");
-  alert('you are amazing');
+	alert('you are amazing');
 }
 
 
-let form = document.querySelector('#contact');
+
 
 form.addEventListener('submit', handleSubmit);
-
-
-document.getElementById("cat-container").onmouseover = function() {mouseOver()};
-
+catCont.addEventListener('mouseover', mouseOver)
