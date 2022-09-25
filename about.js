@@ -17,6 +17,5 @@ function mouseOver() {
 
 
 
-
 form.addEventListener('submit', handleSubmit);
 catCont.addEventListener('mouseover', mouseOver)

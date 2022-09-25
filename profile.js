@@ -10,7 +10,7 @@ function favColor() {
 }
 
 function favPlace() {
-    alert('Convit Lake')
+    alert('Convict Lake')
 }
 
 function favRitual() {

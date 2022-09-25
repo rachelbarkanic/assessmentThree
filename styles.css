@@ -37,12 +37,19 @@ img {
 	max-width: 300px;
 }
 
+#buttons {
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .button {
-	background-color: rgb(244, 196, 51);
+	background-color: rgb(244, 208, 103);
 	padding: 20px;
 	color: navy;
 	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	
+	border-style: dotted;
+	border-color:rgb(202, 99, 31)
 }
 
 #color {
@@ -59,16 +66,21 @@ img {
 
 #compliment-box {
 	background-color: rgb(230, 194, 207);
-	
 }
 
 #interests {
 	display: flex;
 	justify-content: center;
+	background-color: rgb(155, 230, 235);
 }
 
 #career-goals {
 	text-decoration-line: underline;
+}
+
+#career-d {
+	background-color: rgb(190, 225, 154);
+	padding: 10px;
 }
 
 #welcome {
@@ -96,4 +108,13 @@ img {
 #bullet {
 	list-style-type:circle;
 	color: rgb(202, 99, 31);
+}
+
+#skillz {
+	list-style-type: square;
+}
+
+#skills-d {
+	display: flex;
+	background-color: rgb(218, 182, 218);
 }
