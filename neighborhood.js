@@ -1,11 +1,11 @@
-const foodButton = document.querySelector("#food-button")
-const restaurants = ["Cantina Mayahuel", "Chris' Ono Grinds", "SukhoThai Extraordinaire", "The Friendly"]
+const foodButton = document.querySelector("#food-button");
 
 
-
-function random() {
-    restaurants[(Math.random() * restaurants.length) | 0]
-    alert(random)
+function randomRest() {
+    const restaurants = ["Cantina Mayahuel", "Chris' Ono Grinds", "SukhoThai Extraordinaire", "The Friendly"];
+    const random = restaurants[Math.floor(Math.random() * restaurants.length)];
+    alert(random);
 }
 
-foodButton.addEventListener('click', restaurants)
+
+foodButton.addEventListener('click', randomRest)
