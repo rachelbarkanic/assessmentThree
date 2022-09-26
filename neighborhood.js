@@ -6,6 +6,6 @@ function randomRest() {
     const random = restaurants[Math.floor(Math.random() * restaurants.length)];
     alert(random);
 }
-
+ 
 
 foodButton.addEventListener('click', randomRest)
