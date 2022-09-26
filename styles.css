@@ -129,4 +129,11 @@ img {
 	color: white;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	border-color: white;
+	border-radius: 12px;
+	cursor: pointer;
+	transition-duration: .4s;
+}
+
+#food-button:hover {
+	background-color: rgb(149, 103, 158);
 }
